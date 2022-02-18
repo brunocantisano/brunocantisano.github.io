@@ -30,8 +30,8 @@
                 </div>
                 <div class="hard"></div>
                 <div class="hard"></div>
-                <div class="hard p50"></div>
-                <div class="hard p51"></div>
+                <div class="hard p52"></div>
+                <div class="hard p53"></div>
             </div>
         </div>
 
@@ -59,7 +59,7 @@
             $('#book-zoom').mousewheel(function(event, delta, deltaX, deltaY) {
 
                 var data = $(this).data(),
-                    step = 49,
+                    step = 51,
                     flipbook = $('.sample-docs'),
                     actualPos = $('#slider').slider('value') * step;
 
@@ -145,8 +145,8 @@
 
             $(document).keydown(function(e) {
 
-                var previous = 37,
-                    next = 39;
+                var previous = 49,
+                    next = 51;
 
                 switch (e.keyCode) {
                     case previous:
@@ -171,7 +171,7 @@
                 gradients: true,
                 autoCenter: true,
                 duration: 1000,
-                pages: 49,
+                pages: 51,
                 when: {
 
                     turning: function(e, page, view) {

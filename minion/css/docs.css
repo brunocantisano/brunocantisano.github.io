@@ -53,7 +53,7 @@ body {
     background-position: -471px 0;
 }
 
-.sample-docs .p49 {
+.sample-docs .p51 {
     background: -webkit-gradient(linear, left top, right top, color-stop(0.95, #fff), color-stop(1, #dadada));
     background-image: -webkit-linear-gradient(left, #fff 95%, #dadada 100%);
     background-image: -moz-linear-gradient(left, #fff 95%, #dadada 100%);
@@ -62,11 +62,11 @@ body {
     background-image: linear-gradient(left, #fff 95%, #dadada 100%);
 }
 
-.sample-docs .p50 {
+.sample-docs .p52 {
     background-position: -942px 0;
 }
 
-.sample-docs .p51 {
+.sample-docs .p53 {
     background-position: -1413px 0;
 }
 
